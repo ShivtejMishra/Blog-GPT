@@ -21,7 +21,7 @@ prompt = st.text_input('Enter Your Prompt')
 # Prompt templates
 blog_template = PromptTemplate(
     input_variables = ['BlogTopic'], 
-    template='genearate a financial blog on {BlogTopic} for this https://smartcard.ltd/ ,without plagiarism and use easy word'
+    template='genearate a blog on {BlogTopic} ,without plagiarism and use easy word'
 )
 
 # Memory 
